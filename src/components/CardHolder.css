@@ -1,0 +1,23 @@
+.card-holder {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-gap: 2.5rem;
+  width: 80%;
+  position: relative;
+}
+
+.card-holder-section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.card-holder-title {
+  padding-bottom: 20px;
+}
