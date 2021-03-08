@@ -1,0 +1,38 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.navbar-container {
+  display: flex;
+  height: 100px;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.nav-menu {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-gap: 2.5rem;
+  list-style: none;
+}
+
+.nav-item {
+  height: 100px;
+}
+
+.nav-links {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  color: white;
+}
+
+.nav-logo {
+  width: 190px;
+}
