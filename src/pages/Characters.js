@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import CardHolder from '../components/CardHolder'
 import './Characters.css'
 
@@ -8,8 +8,6 @@ const Characters = () => {
     const onBtnClick = () => {
         setLimit(newLimit => newLimit + 8);
     }
-
-    console.log(newLimit)
     
     return (
         <div className='characters-section'>
