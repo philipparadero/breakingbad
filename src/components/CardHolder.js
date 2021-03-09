@@ -19,8 +19,6 @@ const CardHolder = ({category, limit}) => {
         searchForCharacters();
     },[limit])
 
-
-    console.log(data)
     return (
         <div className='card-holder-section'>
             <h1 className='card-holder-title'>{category ==='betterCallSaul' ? 'Better Call Saul' : 'Breaking Bad'} Characters</h1>
